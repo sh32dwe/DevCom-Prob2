@@ -69,7 +69,8 @@ class SyncService:
         else:
             # Handle other types of messages if necessary
             raise NotImplementedError("Handle other message types in onMessage")
-
+#The handleProbe section has been added by me to give this better functionality.
+    #This was not necessary for the problem stated.
     def handleProbe(self, data: dict):
         person_id = data['dev_id']
 
